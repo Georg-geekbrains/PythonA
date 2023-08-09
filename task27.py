@@ -12,5 +12,7 @@
 stroka = input().split()
 set1 = set()
 for i in stroka:
+    print(i)
     set1.add(i.lower())
+print(set1)
 print(len(set1))
